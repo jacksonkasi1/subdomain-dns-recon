@@ -1,0 +1,30 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@layered/dns-records':
+        specifier: ^2.1.0
+        version: 2.1.0
+
+packages:
+
+  '@layered/dns-records@2.1.0':
+    resolution: {integrity: sha512-7JjDasWK6xAltjfIIg4KmiHNW7Tzreq/8IXUvskZhYu9MMQiy/3HABRdzFa/E6V6rvaSl4Asne8LkeL7DONRHQ==}
+
+  punycode@2.3.1:
+    resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
+    engines: {node: '>=6'}
+
+snapshots:
+
+  '@layered/dns-records@2.1.0':
+    dependencies:
+      punycode: 2.3.1
+
+  punycode@2.3.1: {}
