@@ -57,6 +57,7 @@
 2. **Run the setup script**:
 
    ```bash
+   chmod +x setup_and_run.sh
    ./setup_and_run.sh
    ```
 
