@@ -1,1 +1,11 @@
-node_modules
+# Node.js dependencies
+node_modules/
+
+# Text files (exclude all .txt files)
+*.txt
+
+# DNS records directory
+dns/
+
+# Ignore all JSON files in the dns directory and its subdirectories
+dns/**/*.json
